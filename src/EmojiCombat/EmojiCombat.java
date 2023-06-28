@@ -18,19 +18,12 @@ public class EmojiCombat {
         lutador[5] = new Lutador("🤓 Nerdart", "EUA", 30, 1.81, 105,
                 12, 2, 4);
 
+        Luta EC01 = new Luta();
+        EC01.marcarLuta(lutador[0],lutador[1]);
+        EC01.lutar();
 
-        lutador[0].status();
-        System.out.println();
-        lutador[1].status();
-        System.out.println();
-        lutador[2].status();
-        System.out.println();
-        lutador[3].status();
-        System.out.println();
-        lutador[4].status();
-        System.out.println();
-        lutador[5].status();
-        lutador[5].perderLuta();
+
+
 
     }
 }
